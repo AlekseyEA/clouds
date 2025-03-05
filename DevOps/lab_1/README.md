@@ -20,3 +20,6 @@
 ![image](https://github.com/user-attachments/assets/d33b9a7a-a671-481d-a815-bc719a27490c)
 Аналогично создаем сертификат для 2 сайта.
 ## Принудительное перенаправление запросов на HTTPS.
+В конфигурационный файл nginx.conf вносим следующие изменения:
+В блок http { ... } начнем прописывать следующие строки:
+![image](https://github.com/user-attachments/assets/e60645c5-fac9-4273-8a57-a840b7197d3d)

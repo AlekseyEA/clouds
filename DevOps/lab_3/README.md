@@ -6,7 +6,7 @@
 4. Прочитать историю про Васю (она быстрая, забавная и того стоит): https://habr.com/ru/articles/689234/
 
 ## "Плохой" CI/CD файл:
-![image](https://github.com/user-attachments/assets/467d6951-ab02-46d9-ab4d-038e445d7293)
+![image](https://github.com/user-attachments/assets/ad1856e1-dcd4-4779-840a-25b552355e6e)
 
 Для проверки работоспособности "плохого" ci/cd был создан репозиторий с простым python файлом HelloWorld и написан простой тест на его запуск:
 ![image](https://github.com/user-attachments/assets/4c077d00-93aa-4006-b11d-a08c1100c719)

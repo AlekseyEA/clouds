@@ -25,9 +25,16 @@
 В блок http { ... } начнем прописывать следующие строки:
 
 ![image](https://github.com/user-attachments/assets/e60645c5-fac9-4273-8a57-a840b7197d3d)
+
 Этот блок требуется для автоматического перехвата всего http трафика.
 Порт 80 - значит оно будет слушать http трафик.
 
 Теперь добавим еще 2 блок, для projet-1.ru и project-2.ru.
-![image](https://github.com/user-attachments/assets/ae59f87f-941e-4277-8e24-41a3f1e99ad1)
+![image](https://github.com/user-attachments/assets/ac573449-c7f4-4429-bfc8-2646e1e45262)
 Порт 443 - означает, что это принимает SSl-соединения для сайтов projet-1.ru и project-2.ru.
+
+После сохранения изменений в конфигурационном файле, если nginx уже был запущен, необходимо в командной строке Windows прописать команду nginx -s reload для запуска новых рабочих процессов с новой конфигурацией.
+
+Теперь мы можем зайти на два сайта и увидеть их сертификаты, но поскольку они выданы нами самостоятельно, то сам браузер будет в недоумении.
+![image](https://github.com/user-attachments/assets/bbbdfea8-6626-44a5-9988-004c913a7531)
+![image](https://github.com/user-attachments/assets/cc14743a-d179-48aa-8cd8-88d09fc39cfa)
